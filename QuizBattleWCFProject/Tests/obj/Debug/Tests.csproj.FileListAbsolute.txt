@@ -1,0 +1,16 @@
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Tests.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Tests.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Castle.Core.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Controllers.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\DataAccess.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Models.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Moq.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Controllers.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\DataAccess.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Models.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Castle.Core.xml
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Moq.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\bin\Debug\Moq.xml
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\obj\Debug\Tests.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Tests\obj\Debug\Tests.pdb
