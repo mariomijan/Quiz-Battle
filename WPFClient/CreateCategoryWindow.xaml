@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPF.CreateCategoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="CreateCategoryWindow" Height="158.672" Width="293.438">
+    <Grid>
+        <Button x:Name="createButton" Content="Create" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="43,80,0,0" Click="createButton_Click"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" Margin="172,80,0,0" Click="cancelButton_Click"/>
+        <Label x:Name="nameLabel" Content="Category Name" HorizontalAlignment="Left" Margin="25,22,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Height="23" Margin="128,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

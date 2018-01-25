@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPF.CategoriesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="Categories" Height="372.544" Width="534.848" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,0" Height="341" VerticalAlignment="Top">
+        <Button x:Name="createCategoryButton" Content="Create category" Margin="367,90,19,229" Click="createCategory_Click" RenderTransformOrigin="0.359,1.025"/>
+        <Button x:Name="removeCategoryButton" Content="Remove category" Margin="367,144,19,175" Click="removeCategoryButton_Click"/>
+        <Button x:Name="editCategoryButton" Content="Edit category" Margin="367,117,19,202" Click="editCategoryButton_Click"/>
+        <Label x:Name="categoryTitleLabel" Content="Category Database" HorizontalAlignment="Left" Margin="239,0,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="searchTextBox" HorizontalAlignment="Left" Height="23" Margin="10,49,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="137"/>
+        <DataGrid x:Name="categoryDatagrid" CanUserAddRows="False" Margin="10,90,0,24" PreviewKeyDown="categoryDatagrid_PreviewKeyDown" ClipboardCopyMode="None" AutoGenerateColumns="False" HorizontalAlignment="Left" Width="338">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding id}" Header="ID" />
+                <DataGridTextColumn Binding="{Binding name}" Header="Name" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="findCategoryButton" Content="Search" HorizontalAlignment="Left" Margin="171,50,0,0" VerticalAlignment="Top" Width="75" Click="findCategoryButton_Click"/>
+        <Button x:Name="refreshButton" Content="Refresh Data" HorizontalAlignment="Left" Margin="273,50,0,0" VerticalAlignment="Top" Width="75" Click="refreshButton_Click"/>
+        <Button x:Name="homeButton" Content="Home" Margin="367,267,19,52" Click="homeButton_Click"/>
+        <Button x:Name="logoutButton" Background="PaleVioletRed" Content="Log Out" Margin="367,294,19,24" Click="logoutButton_Click"/>
+    </Grid>
+</Window>
