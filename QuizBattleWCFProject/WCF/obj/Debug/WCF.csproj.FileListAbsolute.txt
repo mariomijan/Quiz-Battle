@@ -1,0 +1,131 @@
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\WCF.dll.config
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\WCF.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\WCF.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Controllers.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Models.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\System.Spatial.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\DataAccess.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\MonAgentListener.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Controllers.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Models.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\System.Spatial.xml
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\DataAccess.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\obj\Debug\WCF.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\WCF\obj\Debug\WCF.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\WCF.dll.config
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\WCF.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\WCF.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Controllers.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.Edm.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.OData.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Models.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Newtonsoft.Json.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\System.Spatial.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\DataAccess.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\MonAgentListener.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Controllers.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Models.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.Edm.xml
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.OData.xml
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\Newtonsoft.Json.xml
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\System.Spatial.xml
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\DataAccess.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\de\System.Spatial.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\es\System.Spatial.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\fr\System.Spatial.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\it\System.Spatial.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ja\System.Spatial.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ko\System.Spatial.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\ru\System.Spatial.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\obj\Debug\WCF.csproj.CoreCompileInputs.cache
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\obj\Debug\WCF.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\WCF\obj\Debug\WCF.pdb
