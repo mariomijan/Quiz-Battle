@@ -1,0 +1,11 @@
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Models\bin\Debug\Models.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Models\bin\Debug\Models.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Models\obj\Debug\Models.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Models\obj\Debug\Models.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Models\bin\Debug\Models.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Models\bin\Debug\Models.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Models\obj\Debug\Models.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Models\obj\Debug\Models.pdb

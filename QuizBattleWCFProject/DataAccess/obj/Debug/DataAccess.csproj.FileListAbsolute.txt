@@ -1,0 +1,15 @@
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\DataAccess\bin\Debug\Models.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\DataAccess\bin\Debug\Models.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\DataAccess\obj\Debug\DataAccess.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\DataAccess\bin\Debug\DataAccess.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\DataAccess\bin\Debug\DataAccess.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\DataAccess\bin\Debug\Models.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\DataAccess\bin\Debug\Models.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\DataAccess\obj\Debug\DataAccess.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\DataAccess\obj\Debug\DataAccess.pdb

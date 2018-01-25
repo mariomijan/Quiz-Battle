@@ -1,0 +1,19 @@
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\Controllers.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\Controllers.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\DataAccess.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\Models.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\DataAccess.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\Models.pdb
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Controllers\obj\Debug\Controllers.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Controllers\obj\Debug\Controllers.dll
+C:\Users\Mario\Source\Workspaces\Workspace\Qz Battle Project\Qz Battle Project\Controllers\obj\Debug\Controllers.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\Controllers.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\Controllers.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\DataAccess.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\Models.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\DataAccess.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\bin\Debug\Models.pdb
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\obj\Debug\Controllers.csprojResolveAssemblyReference.cache
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\obj\Debug\Controllers.dll
+C:\Mario Mijan\Projects\Qz Battle Project_OLD\Qz Battle Project\Qz Battle Project\Controllers\obj\Debug\Controllers.pdb
