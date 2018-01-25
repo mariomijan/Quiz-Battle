@@ -1,0 +1,33 @@
+﻿<Window x:Class="WPF.QuizWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="QuizWindow" Height="654.128" Width="1165" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,0">
+        <Button x:Name="createQuizButton" Content="Create quiz" HorizontalAlignment="Left" Margin="1041,93,0,0" VerticalAlignment="Top" Width="104" RenderTransformOrigin="0.359,1.025" Click="createQuizButton_Click"/>
+        <Button x:Name="removeQuizButton" Content="Remove quiz" HorizontalAlignment="Left" Margin="1041,151,0,0" VerticalAlignment="Top" Width="104" />
+        <Button x:Name="editQuizButton" Content="Edit quiz" HorizontalAlignment="Left" VerticalAlignment="Top" Width="104" Margin="1041,122,0,0"/>
+        <Label x:Name="quizTitleLabel" Content="Quiz Database" HorizontalAlignment="Left" Margin="312,0,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="searchTextBox" HorizontalAlignment="Left" Height="23" Margin="10,49,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="137"/>
+        <DataGrid x:Name="quizDatagrid" CanUserAddRows="False" Margin="10,90,0,10" ClipboardCopyMode="None"  AutoGenerateColumns="False" HorizontalAlignment="Left" Width="1023">
+            <!--PreviewKeyDown="quizDatagrid_PreviewKeyDown"-->
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding id}" Header="Category ID" />
+                <DataGridTextColumn Binding="{Binding name}" Header="Category Name" />
+                <DataGridTextColumn Binding="{Binding question[0].id}" Header="Question ID" />
+                <DataGridTextColumn Binding="{Binding question[0].description}" Header="Question Description" />
+                <DataGridTextColumn Binding="{Binding question[0].answer[0].id[0]}" Header="Answer ID" />
+                <DataGridTextColumn Binding="{Binding question[0].answer[0].description}" Header="Answer Description" />
+                <DataGridTextColumn Binding="{Binding question[0].answer[0].isCorrect}" Header="Is Correct" />
+                <DataGridTextColumn Binding="{Binding question[0].answer[0].pointAmount}" Header="Point Amount" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="findQuizButton" Content="Search" HorizontalAlignment="Left" Margin="171,50,0,0" VerticalAlignment="Top" Width="110" />
+        <Button x:Name="refreshButton" Content="Refresh Data" HorizontalAlignment="Left" Margin="524,50,0,0" VerticalAlignment="Top" Width="110" Click="refreshButton_Click" />
+        <Button x:Name="homeButton" Content="Home" Margin="1041,547,0,0" HorizontalAlignment="Left" Width="104" Height="22" VerticalAlignment="Top" Click="homeButton_Click"/>
+        <Button x:Name="logoutButton" Background="PaleVioletRed" Content="Log Out" HorizontalAlignment="Left" Margin="1041,574,0,0" Width="104" Height="20" VerticalAlignment="Top" Click="logoutButton_Click" />
+    </Grid>
+</Window>
