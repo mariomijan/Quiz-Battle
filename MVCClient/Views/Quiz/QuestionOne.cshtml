@@ -1,0 +1,39 @@
+﻿@model MVCClient.Models.QuizViewModel
+
+@{
+    ViewBag.Title = "Question";
+}
+
+<div class="panel panel-default ourpanel">
+    <label class="player-name">Player Name: @Model.loginViewModel.Username</label>
+    <div class="panel-body">
+        <h1 class="question">@Model.Questions.FirstOrDefault().description</h1>
+        @foreach (var item in Model.Questions.Skip(5).FirstOrDefault().Answers)
+        {
+            using (Html.BeginForm("Question", "Quiz", new { answerId = item.id }))
+            {
+                @Html.HiddenFor(x => x.categoryId, new { id = "catId" })
+                @Html.Hidden("nextQuestion",Model.Questions.Skip(1).FirstOrDefault().id)
+                <div class="panel-body">
+                    <button id="@item.id" type="button" class="btn btn-default answerbtn">Async @item.description</button>
+                    <button type="submit" class="btn btn-info btn-lg btn-block">@item.description</button><br />
+                </div>
+            }
+        }
+
+        @*@Html.Raw(ViewBag.Correct)
+        @Html.Raw(ViewBag.Wrong)*@
+    
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/Scripts/sweetalert.min.js"></script>
+    <script src="~/Scripts/OurJavaScriptFile.js"></script>
+    <script>Correct(@(((bool)ViewBag.IsCorrect).ToString().ToLower()),"QuestionTwo");</script>
+}
+@section customCss {
+    <link href="~/Content/sweetalert/sweetalert.css" rel="stylesheet" />
+    }
+
+

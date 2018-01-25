@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="QuizService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WCF/Service4/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WCF/Service4/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WCF/Service4/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Models" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IQuizService_GetAllCategories_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCategories" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_GetAllCategories_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCategoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_GetAllQuestionsAndAnswersByCategoryId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllQuestionsAndAnswersByCategoryId" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_GetAllQuestionsAndAnswersByCategoryId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllQuestionsAndAnswersByCategoryIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_GetQuestion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuestion" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_GetQuestion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_GetAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_GetAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_IsCorrect_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsCorrect" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_IsCorrect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsCorrectResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_AddUserQuestionCategoryAndLobby_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserQuestionCategoryAndLobby" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_AddUserQuestionCategoryAndLobby_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserQuestionCategoryAndLobbyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_ClearTableAfterFinish_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearTableAfterFinish" />
+  </wsdl:message>
+  <wsdl:message name="IQuizService_ClearTableAfterFinish_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearTableAfterFinishResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IQuizService">
+    <wsdl:operation name="GetAllCategories">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizService/GetAllCategories" message="tns:IQuizService_GetAllCategories_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizService/GetAllCategoriesResponse" message="tns:IQuizService_GetAllCategories_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllQuestionsAndAnswersByCategoryId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizService/GetAllQuestionsAndAnswersByCategoryId" message="tns:IQuizService_GetAllQuestionsAndAnswersByCategoryId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizService/GetAllQuestionsAndAnswersByCategoryIdResponse" message="tns:IQuizService_GetAllQuestionsAndAnswersByCategoryId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQuestion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizService/GetQuestion" message="tns:IQuizService_GetQuestion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizService/GetQuestionResponse" message="tns:IQuizService_GetQuestion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAnswer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizService/GetAnswer" message="tns:IQuizService_GetAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizService/GetAnswerResponse" message="tns:IQuizService_GetAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsCorrect">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizService/IsCorrect" message="tns:IQuizService_IsCorrect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizService/IsCorrectResponse" message="tns:IQuizService_IsCorrect_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUserQuestionCategoryAndLobby">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizService/AddUserQuestionCategoryAndLobby" message="tns:IQuizService_AddUserQuestionCategoryAndLobby_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizService/AddUserQuestionCategoryAndLobbyResponse" message="tns:IQuizService_AddUserQuestionCategoryAndLobby_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearTableAfterFinish">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuizService/ClearTableAfterFinish" message="tns:IQuizService_ClearTableAfterFinish_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuizService/ClearTableAfterFinishResponse" message="tns:IQuizService_ClearTableAfterFinish_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IQuizService" type="tns:IQuizService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllCategories">
+      <soap:operation soapAction="http://tempuri.org/IQuizService/GetAllCategories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllQuestionsAndAnswersByCategoryId">
+      <soap:operation soapAction="http://tempuri.org/IQuizService/GetAllQuestionsAndAnswersByCategoryId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetQuestion">
+      <soap:operation soapAction="http://tempuri.org/IQuizService/GetQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAnswer">
+      <soap:operation soapAction="http://tempuri.org/IQuizService/GetAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsCorrect">
+      <soap:operation soapAction="http://tempuri.org/IQuizService/IsCorrect" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUserQuestionCategoryAndLobby">
+      <soap:operation soapAction="http://tempuri.org/IQuizService/AddUserQuestionCategoryAndLobby" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearTableAfterFinish">
+      <soap:operation soapAction="http://tempuri.org/IQuizService/ClearTableAfterFinish" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="QuizService">
+    <wsdl:port name="BasicHttpBinding_IQuizService" binding="tns:BasicHttpBinding_IQuizService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WCF/Service4/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

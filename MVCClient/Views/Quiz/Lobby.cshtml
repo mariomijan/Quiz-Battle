@@ -1,0 +1,63 @@
+﻿@model MVCClient.Models.LobbyViewModel
+
+@{
+    ViewBag.Title = "Lobbies";
+}
+
+<h2>Lobbies</h2>
+<label class="player-name">Player Name: @Model.PlayerName</label>
+<p>
+    @Html.ActionLink("Create New", "CreateLobby", new { categoryId = Model.categoryId })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.isStarted)
+        </th>
+        <th>
+
+        </th>
+    </tr>
+    @foreach (var item in Model.lobbies)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.isStarted)
+            </td>
+            <td>
+                @if (Model.IsUserInLobby && item.id == Model.user.joinedLobbyId)
+                {
+                    @Html.ActionLink(linkText: "Enter Lobby",
+                          actionName: "JoinLobby",
+                          controllerName: "Quiz",
+                          routeValues: new { lobbyId = item.id, categoryId = Model.categoryId },
+                          htmlAttributes: new { @class = "", @Title = "Edit" })
+                    
+                    @Html.ActionLink("Leave Lobby", "LeaveLobby", new { userId = Model.user.id, categoryId = Model.categoryId })
+                }
+                else
+                {
+                    @Html.ActionLink(linkText: "Join Lobby",
+                          actionName: "JoinLobby",
+                          controllerName: "Quiz",
+                          routeValues: new { lobbyId = item.id, categoryId = Model.categoryId },
+                          htmlAttributes: new { @class = "", @Title = "Edit" })
+                }
+
+                @if (Model.DoesUserAlreadyOwnALobby && item.id == Model.user.lobbyOwnedId)
+                {
+                    @Html.ActionLink("Delete Lobby", "DeleteLobby", new { userId = Model.user.id, lobbyOwnedId = Model.user.lobbyOwnedId, categoryId = Model.categoryId })
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+
+

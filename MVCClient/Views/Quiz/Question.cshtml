@@ -1,0 +1,172 @@
+﻿@using MVCClient.Security
+@model MVCClient.Models.CurrentQuizViewModel
+
+@{
+    ViewBag.Title = "Question";
+}
+
+<div class="panel panel-default ourpanel">
+    <label class="player-name">Player Name: @SessionLogin.UserName</label>
+    <label>Current Score: @Model.Points</label>
+    <div class="panel-body">
+        <h1 class="question">@Model.CurrentQuestion.description</h1>
+        @foreach (var item in Model.CurrentQuestion.Answers)
+        {
+            using (Html.BeginForm("Question", "Quiz", new { answerId = item.id }))
+            {
+                <div class="panel-body">
+                    <button id="@item.id" type="button" class="btn btn-info btn-lg btn-block answerbtn">@item.description</button>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+@*@*Prevent user from redirecting to previous page*@
+<script type="text/javascript">
+    window.history.forward(1);
+</script>
+
+@section scripts {
+    <script src="~/Scripts/sweetalert.min.js"></script>
+    <script src="~/scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/scripts/jquery.signalr-2.2.1.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script>
+
+        //var lobbyhub = $.connection.lobbyHub;
+        //lobbyhub.client.hasBeenAnswered = function (catId, lobbyId) {
+        //    console.log("Redirecting...");
+        //    window.location.href = '/Quiz/Question?CategoryId='+catId+'&lobbyId='+lobbyId;
+        //    console.log("Redirected");
+        //}
+
+        @*$.connection.hub.logging = true;
+        var lobbyhub = $.connection.lobbyHub;
+        lobbyhub.client.notifyOpponnent = function (lobbyId) {
+            console.log("@Model.lobbyId");
+        }
+
+        lobbyhub.server.messageForOpponnent("@Model.lobbyId")
+            .done(function () {
+                console.log('Invocation of messageForOpponnent succeeded');
+            })
+            .fail(function (error) {
+                console.log('Invocation of messageForOpponnent failed. Error: ' + error);
+            });
+
+        $.connection.hub.start()
+            .done(function () {
+                lobbyhub.server.messageForOpponnent("@Model.lobbyId" + 'hello');
+                console.log("entered start.done");
+            });*@
+
+        //lobbyhub.server.messageForOpponnent();
+        //console.log("Rip");
+
+
+
+        //Check if answer is correct
+        $('.answerbtn').click(function () {
+            $.ajax({
+                url: '/Quiz/CheckAnswer',
+                data: { answerId: $(this).attr('id'), lobbyId: '@Model.lobbyId', categoryId: '@Model.CategoryId', userId: '@Model.User.id' },
+                method: 'POST',
+                success: function (data) {
+                    if (data.IsAnswered) {
+                        swal({
+                            title: "Drat you were too late!",
+                            text: "Late!!",
+                            showConfirmButton: false,
+                            type: "warning"
+                        });
+                    }
+                    else if (data.Answer.isCorrect) {
+                        swal({
+                            title: "Excellent !",
+                            text: "Your Answer Is Correct !",
+                            showConfirmButton: false,
+                            type: "success",
+                        });
+                    }
+                    else {
+                        swal({
+                            title: "Drat !",
+                            text: "Your Answer Is Wrong !",
+                            showConfirmButton: false,
+                            type: "warning"
+                        });
+                    }
+
+                    window.setTimeout(function () {
+                        window.location.href = '/Quiz/Question?CategoryId=@Model.CategoryId&lobbyId=@Model.lobbyId';
+                    }, 3300);
+                },
+                error: function (jqErr) {
+                    console.log(jqErr);
+                    window.location.href = '/Quiz/Question?CategoryId=@Model.CategoryId&lobbyId=@Model.lobbyId';
+                },
+            });
+            //var preventRefresh = document.getElementById("").value;
+        });
+
+        //Add points to user if answer is correct
+        $('.answerbtn').click(function () {
+            $.ajax({
+                type: "POST",
+                url: '/Quiz/Point',
+                data: { answerId: $(this).attr('id') },
+                success: function (data) {
+                    if (data !== "False") {
+                        window.setTimeout(function () {
+                        }, 3300);
+                    }
+                }
+            });
+        });
+
+
+        //Detect browser refresh and call action from controller
+        var logout = true;
+        var success = false;
+
+        $(document).ready(function () {
+
+            $(".answerbtn").click(function () {
+                logout = false;
+            });
+
+            var myEvent = window.attachEvent || window.addEventListener;
+            var chkevent = window.attachEvent ? 'onbeforeunload' : 'beforeunload';
+
+            myEvent(chkevent, function (e) {
+
+                if (logout === true) {
+
+                    $.ajax(
+                    {
+                        type: "POST",
+                        traditional: true,
+                        data: { lobbyId: '@Model.lobbyId' },
+                        dataType: "json",
+                        async: false,
+                        url: '/Quiz/RedirectToPage',
+
+                        success: function (data) {
+
+                            if (data === "Success") {
+                                success = true;
+                            }
+                        }
+                    });
+                }
+            });
+        });
+
+    </script>
+}
+@section customCss {
+    <link href="~/Content/sweetalert/sweetalert.css" rel="stylesheet" />
+}
+
+

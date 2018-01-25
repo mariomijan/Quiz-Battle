@@ -1,0 +1,27 @@
+﻿@model MVCClient.Models.QuizViewModel
+
+
+@{
+    ViewBag.Title = "Finish";
+}
+
+<div class="panel panel-default ourpanel">
+    <img class="finished-smiley" src="~/Content/img/smiley.jpeg" />
+    <h3 class="finished-message-content">Thank You For Playing @Model.User.login.username</h3>
+    <div class="panel-body">
+        <div class="finished-message-content">Your total score from this quiz is: @Model.CurrentQuizViewModel.Points</div> 
+        <div class="finished-message-content">Your total overall score is: @Model.User.point</div>
+        @using (Html.BeginForm("Finish", "Quiz", new { ReturnUrl = ViewBag.ReturnUrl },
+                                FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            <button type="submit" class="btn btn-info btn-lg ourbuttons finish-button">Play Again</button>
+        }
+    </div>
+</div>
+
+@*Prevent user from redirecting to previous page*@
+<script type="text/javascript">
+    window.history.forward(1);
+</script>
+
+

@@ -1,0 +1,44 @@
+﻿@model MVCClient.Models.QuizViewModel
+
+@{
+    ViewBag.Title = "Category";
+
+}
+
+<div class="panel panel-default ourpanel">
+    <label class="player-name">Player Name: @Model.loginViewModel.Username</label>
+    <div class="panel-body">
+        <h2 class="">Choose category</h2>
+        @foreach (var item in Model.Categories)
+            {
+            <div class="panel-body">
+                @Html.ActionLink(linkText: (string)item.name,
+                     actionName: "Lobby",
+                     controllerName: "Quiz",
+                     routeValues: new { categoryId = item.id },
+                     htmlAttributes: new { @class = "btn btn-info btn-lg btn-block ourButtons", @Title = "Edit" })<br />
+            </div>
+        }
+    </div>
+</div>
+
+
+@*Prevent user from redirecting to previous page*@
+<script type="text/javascript">
+    window.location.hash = " ";
+    window.onhashchange = function () {
+        window.location.hash = " ";
+        history.pushState('', document.title, window.location.pathname);
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+﻿@model MVCClient.Models.ProfileViewModel
+
+@{
+    ViewBag.Title = "MyProfile";
+}
+
+<h2>My Profile</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.User.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User.lastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User.country)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User.phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User.point)
+        </th>
+    </tr>
+    
+    <tr>
+        <td>
+            @Html.DisplayFor(model => model.User.name)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.User.lastName)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.User.country)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.User.phone)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.User.point)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=Model.User.id }, new {@class = "btn btn-primary" }) 
+        </td>
+    </tr>
+</table>
+@Html.ActionLink("Play Quiz", "Category", "Quiz", null, new { @class = "btn btn-info btn-lg profile-playquiz-btn" })

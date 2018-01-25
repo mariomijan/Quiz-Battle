@@ -1,0 +1,32 @@
+﻿@model MVCClient.Models.QuizViewModel
+
+@{
+    ViewBag.Title = "QuestionThree";
+}
+
+<div class="panel panel-default ourpanel">
+    <div class="panel-body">
+        <label class="player-name">Player Name: @Model.loginViewModel.Username</label>
+        <h1 class="question">@Model.Questions.Skip(8).First().description</h1>
+        @foreach (var item in Model.Questions.Skip(8).First().Answers)
+        {
+
+            using (Html.BeginForm("QuestionThree", "Quiz", new { answerId = item.id }))
+            {
+                @Html.HiddenFor(x => x.categoryId, new { id = "catId" })
+                <div class="panel-body">
+                    <button type="submit" id="btnSubmit" class="btn btn-info btn-lg btn-block">@item.description</button><br />
+                </div>
+            }
+        }
+        
+        @Html.Raw(ViewBag.Correct)
+        @Html.Raw(ViewBag.Wrong)
+    
+    </div>
+</div>
+@section scripts{
+    <script src="~/Scripts/OurJavaScriptFile.js"></script>
+}
+
+

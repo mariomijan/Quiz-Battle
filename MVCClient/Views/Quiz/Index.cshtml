@@ -1,0 +1,25 @@
+﻿@using MVCClient.Security
+@model MVCClient.Models.QuizViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="panel panel-default ourpanel">
+    <div class="panel-body">
+        <h1 class="heading">Welcome to Quiz-Battle, please either register or login to play</h1>
+        <img id="front-image" src="~/Content/img/logo-front.jpg" />
+        <div class="front-page-buttons-content">
+            @if (SessionLogin.UserIsInSession())
+            {
+                @Html.ActionLink("Play Quiz", "Category", "Quiz", null, new { @class = "btn btn-info btn-lg ourbuttons playquiz-btn" })
+            }
+            else
+            {
+                @Html.ActionLink("Register", "Register", "Quiz", null, new { @class = "btn btn-info btn-lg ourbuttons register-login-btn" })
+                @Html.ActionLink("Login", "Login", "Quiz", null, new { @class = "btn btn-info btn-lg ourbuttons register-login-btn" })
+            }
+        </div>
+    </div>
+</div>
+

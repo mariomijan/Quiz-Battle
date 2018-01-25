@@ -1,0 +1,125 @@
+﻿@model MVCClient.Models.LobbyViewModel
+
+@{
+    ViewBag.Title = "JoinLobby";
+}
+
+<h1>Lobby Information</h1>
+<label class="player-name">Player Name: @Model.PlayerName</label>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.lobby.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lobby.name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.isStarted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isStarted)
+        </dd>
+    </dl>
+
+    @if (Model.users.Count < 2)
+    {
+        using (Html.BeginForm("JoinLobby", "Quiz", new { categoryId = Model.lobby.category.id, lobbyId = Model.lobby.id }))
+        {
+            <form>
+                <button type="submit" class="btn btn-info">Join Lobby</button>
+            </form>
+        }
+
+    }
+
+    <button id="btnStart" type="button" class="btn-block btnStart">Start Quiz</button>
+
+    @if (Model.users.Count > 2)
+    {
+        <label style="color:red"> Too many players in lobby</label>
+    }
+
+    <br /><h2> Players in lobby: (@Model.users.Count.ToString()/2)</h2>
+    <div id="players-in-lobby">
+        @if (Model.user.joinedLobbyId != Model.lobby.id)
+        {
+            foreach (var user in Model.users)
+            {   
+                @user.name
+            }
+        }
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Back to Lobbies", "Lobby", new { categoryId = Model.lobby.category.id })
+</p>
+
+@section scripts{
+
+    @if (Model.user.joinedLobbyId == Model.lobby.id)
+    {
+        <script src="~/scripts/jquery-3.1.1.min.js"></script>
+
+        @*<script src="~/scripts/jquery.signalr-2.2.1.min.js"></script>*@
+        <script src="/signalr/hubs"></script>
+        <script>
+            $(function () {
+                console.log("SignalR initializing...");
+                $('#btnStart').click(function (e) {
+                    e.preventDefault();
+                    $.ajax({
+                        url: '@Url.Action("start", "Quiz")',
+                        method: 'post',
+                        data: {categoryId:@Model.lobby.category.id, lobbyId:@Model.lobby.id},
+                        success: function (data) {
+                            //isStartedTrue();
+                        }
+                    });
+                });
+
+
+                var lobbyhub = $.connection.lobbyHub;
+                lobbyhub.client.startGame = function (quiz) {
+                    window.location.href = '/Quiz/Question?CategoryId=@Model.lobby.category.id&lobbyId=@Model.lobby.id';
+                }
+
+                lobbyhub.client.getUsersInLobby = function(users){
+                    var theDiv = $('#players-in-lobby');
+                    theDiv.empty();
+                    for (var i = 0; i < users.length; i++) {
+                        theDiv.append(users[i].name + "<br/>");
+                    }
+
+                    if (users.length == 2) {
+                        $('#btnStart').show();
+                    }
+                }
+
+                //start up the hub
+                $.connection.hub.start({ waitForPageLoad: false}).done(function () {
+                    lobbyhub.server.join("@Model.lobby.id" );
+                });
+            });
+
+
+        @*$(function isStartedTrue() {
+            $('#btnStart').click(function () {
+                $.ajax({
+                    type: "POST",
+                    url: '/Quiz/IsStartedTrue',
+                    data: {lobbyId:@Model.lobby.id},
+                    success: function (data) {
+                        if (data !== "False") {
+                        }
+                    }
+                });
+            });
+        });*@
+    </script>
+}
+}

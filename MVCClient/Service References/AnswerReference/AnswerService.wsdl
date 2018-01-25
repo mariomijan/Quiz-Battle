@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AnswerService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WCF/Service3/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WCF/Service3/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WCF/Service3/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Models" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAnswerService_AddAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_AddAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_UpdateAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_UpdateAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_RemoveAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_RemoveAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_GetAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_GetAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_AnswerQuestion_InputMessage">
+    <wsdl:part name="parameters" element="tns:AnswerQuestion" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_AnswerQuestion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AnswerQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_GetAllAnswer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAnswer" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_GetAllAnswer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_IsCorrect_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsCorrect" />
+  </wsdl:message>
+  <wsdl:message name="IAnswerService_IsCorrect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsCorrectResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAnswerService">
+    <wsdl:operation name="AddAnswer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnswerService/AddAnswer" message="tns:IAnswerService_AddAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnswerService/AddAnswerResponse" message="tns:IAnswerService_AddAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnswer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnswerService/UpdateAnswer" message="tns:IAnswerService_UpdateAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnswerService/UpdateAnswerResponse" message="tns:IAnswerService_UpdateAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveAnswer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnswerService/RemoveAnswer" message="tns:IAnswerService_RemoveAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnswerService/RemoveAnswerResponse" message="tns:IAnswerService_RemoveAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAnswer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnswerService/GetAnswer" message="tns:IAnswerService_GetAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnswerService/GetAnswerResponse" message="tns:IAnswerService_GetAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AnswerQuestion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnswerService/AnswerQuestion" message="tns:IAnswerService_AnswerQuestion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnswerService/AnswerQuestionResponse" message="tns:IAnswerService_AnswerQuestion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAnswer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnswerService/GetAllAnswer" message="tns:IAnswerService_GetAllAnswer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnswerService/GetAllAnswerResponse" message="tns:IAnswerService_GetAllAnswer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsCorrect">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAnswerService/IsCorrect" message="tns:IAnswerService_IsCorrect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAnswerService/IsCorrectResponse" message="tns:IAnswerService_IsCorrect_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAnswerService" type="tns:IAnswerService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddAnswer">
+      <soap:operation soapAction="http://tempuri.org/IAnswerService/AddAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAnswer">
+      <soap:operation soapAction="http://tempuri.org/IAnswerService/UpdateAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveAnswer">
+      <soap:operation soapAction="http://tempuri.org/IAnswerService/RemoveAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAnswer">
+      <soap:operation soapAction="http://tempuri.org/IAnswerService/GetAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnswerQuestion">
+      <soap:operation soapAction="http://tempuri.org/IAnswerService/AnswerQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAnswer">
+      <soap:operation soapAction="http://tempuri.org/IAnswerService/GetAllAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsCorrect">
+      <soap:operation soapAction="http://tempuri.org/IAnswerService/IsCorrect" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AnswerService">
+    <wsdl:port name="BasicHttpBinding_IAnswerService" binding="tns:BasicHttpBinding_IAnswerService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WCF/Service3/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
